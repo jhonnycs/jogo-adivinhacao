@@ -8,9 +8,12 @@ int main() {
     printf("************************************\n\n");
 
     int segundos = time(0);
-    srand(segundos); // srand usa uma semente para aleatorizar o rand
-    // ao usar o time passando 0, temos os segundos que se passaram desde uma data específica, deixando
-    // o valor muito próximo do aleatório
+    srand(segundos);
+    /*
+        srand usa uma semente para aleatorizar o rand
+        ao usar o time passando 0, temos os segundos que se passaram desde uma data específica, deixando
+        o valor muito próximo do aleatório
+    */
     int numeroGrande = rand();
     int numeroSecreto = numeroGrande % 100; // usando o resto da divisão por 100, temos sempre um número no intervalo [0, 99]
     int chute;
