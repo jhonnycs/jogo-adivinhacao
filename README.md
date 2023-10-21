@@ -1,4 +1,4 @@
-# jogo-advinhacao
+# jogo-adivinhacao
 Jogo de advinhação feito em C, do livro "Introdução à programação em C: os primeiros passos de um desenvolvedor", de Maurício Aniche
 
 ## advinhacao.c
